@@ -1,1 +1,87 @@
 
+body
+{
+    background: url(../Images/cool.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.first
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;                                                                                      
+}
+.logo
+{
+    height: 80px;
+    width: 80px;
+}
+nav
+{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li
+{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+nav ul li a:hover
+{
+    color: aqua;
+}
+.second
+{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+.second h1
+{
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+span
+{
+    color: lightskyblue;
+    font-weight: bold; 
+}
+.second p
+{
+    color: white;
+    line-height: 22px;
+}
+.third h2
+{
+    font-weight: bold;
+    color: #fff;
+}
+.third h2 ul
+{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+ i
+ {
+    color:rgb(12, 109, 194);
+ }
+ i:hover
+ {
+    color: lightblue;
+ }
